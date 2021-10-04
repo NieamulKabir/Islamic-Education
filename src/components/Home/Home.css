@@ -1,0 +1,22 @@
+.home_title{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.cart {
+    padding: 30px;
+    height: 280px;
+   border-radius: 20px;
+    margin-top: 10px;
+    margin: 10px;
+    background-color: rgb(245, 243, 221);
+    box-shadow: 10px 10px 20px rgb(106, 100, 100);
+    transition: 0.6s;
+
+  }
+  .cart:hover{
+    box-shadow: 4px 4px 7px rgb(224, 162, 240);
+    border-radius: 15px;
+  }
+  .text-area{
+      text-align: left;
+  }

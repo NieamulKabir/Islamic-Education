@@ -1,0 +1,24 @@
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1586767003402-8ade266deb64?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 550px;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .title {
+    color: white;
+    font-weight: bold;
+    font-size: 59px;
+  }
+  .about-btn {
+    background-color: #5dca85;
+    outline: none;
+    border: none;
+    padding: 17px 34px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }

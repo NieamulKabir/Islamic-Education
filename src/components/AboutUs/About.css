@@ -1,0 +1,44 @@
+.about{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.philosophy{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.philosophy_cart{
+ background-color: rgb(240, 227, 233);
+   height: 350px;
+   padding: 30px;
+   margin: 20px;
+   width: 250px;
+   box-shadow: 10px 10px 20px rgb(106, 100, 100);
+   border-radius: 20px;
+   
+}
+.p_title{
+    background-color: rgb(72, 68, 68);
+    border-radius: 50% ;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin-left: 35%;
+    padding: 10px;
+    color: white;
+}
+.btn-1{
+   
+    border: none;
+    color: white;
+    background-color: rgba(255, 0, 68, 0.796);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #06f988 ;
+    transition: ease-out 0.3s;
+    font-size: 20px;
+    outline: none;
+}
+.btn-1:hover{
+    box-shadow: inset 50px 0 0 0 #87da5e ;
+    cursor: pointer;
+    color: #000;
+}

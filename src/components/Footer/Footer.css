@@ -1,0 +1,27 @@
+.footer_container{
+    background-color: rgb(31, 82, 82);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.footer_content{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.contact{
+    color: rgb(184, 181, 181);
+    padding-bottom: 80px;
+}
+.socia-icon{
+    font-size: 40px;
+  
+   
+}
+.fab{
+    padding: 20px;
+}
+.allright{
+    background-color: rgb(5, 49, 49);
+    color: white;
+    padding: 20px;
+}

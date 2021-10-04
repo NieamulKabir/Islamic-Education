@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Hassan Arif",
+      "title": "Islamic Teacher",
+      "imgurl": "http://kodeforest.net/wp-demo/islamic-center/wp-content/uploads/2017/05/5-385x545.png"
+    },
+    {
+      "id": 2,
+      "name": "Naimal Nazir",
+      "title": "islamic Scholor",
+      "imgurl": "http://kodeforest.net/wp-demo/islamic-center/wp-content/uploads/2017/05/1-385x545.png"
+    },
+    {
+      "id": 3,
+      "name": "Amara Saleem",
+      "title": "Member",
+      "imgurl": "http://kodeforest.net/wp-demo/islamic-center/wp-content/uploads/2017/05/6-385x545.png"
+    },
+    {
+      "id": 4,
+      "name": "babar Niazi",
+      "title": "Mufti",
+      "imgurl": "http://kodeforest.net/wp-demo/islamic-center/wp-content/uploads/2017/05/7-385x545.png"
+    },
+    {
+      "id": 5,
+      "name": "Ali Hamdaam",
+      "title": "Shariah laws",
+      "imgurl": "https://tabligh.nauthemes.com/wp-content/uploads/2020/11/Team-2.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ali Ibn Majeed",
+      "title": "Islamic Expert",
+      "imgurl": "https://tabligh.nauthemes.com/wp-content/uploads/2020/11/course-scholar-img1.jpg"
+    }
+  ]
