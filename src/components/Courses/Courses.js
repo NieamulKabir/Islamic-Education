@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 import './Courses.css'
 
 const Courses = () => {
@@ -11,16 +13,20 @@ const Courses = () => {
             .then(data => setCourses(data))
     }, [])
     return (
-        <div className="container">
-            <h1 className="courses_title">Our Courses</h1>
-            <div className="courses">
-                {
-                    courses.map(course => <Course
-                        key={course.id}
-                        course={course}
-                    ></Course>)
-                }
+        <div >
+            <Header></Header>
+            <div className="container">
+                <h1 className="courses_title">Our Courses</h1>
+                <div className="courses">
+                    {
+                        courses.map(course => <Course
+                            key={course.id}
+                            course={course}
+                        ></Course>)
+                    }
+                </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

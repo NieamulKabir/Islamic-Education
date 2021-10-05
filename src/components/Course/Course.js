@@ -9,9 +9,11 @@ const Course = (props) => {
 
     return (
         <div>
+
+            {/* all courses data rendering useing api  */}
             <div className="course">
                 <div >
-                    <img src={image} alt="" />
+                    <img className="w-100" src={image} alt="" />
                 </div>
                 <div >
                     <small>{name}</small>

@@ -1,4 +1,15 @@
 .course_details{
     margin-top: 5%;
     padding: 20px;
+    background-color: rgb(223, 218, 213);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(122, 120, 123);
+}
+.back_button{
+    background-color: #92EAAA ;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 13px 5px 13px;
+    font-weight: bold;
+   
 }

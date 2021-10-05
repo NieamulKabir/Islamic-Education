@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+
 import './Home.css'
 
 const Home = () => {
@@ -10,6 +13,7 @@ const Home = () => {
     }, [])
     return (
         <div>
+            <Header></Header>
             <h2 className="home_title">Holy Quran</h2>
             <div className="container">
                 <div className="row">
@@ -26,12 +30,15 @@ const Home = () => {
 
                                     </div>
                                 </div>
+
                             </div>
+
                         )
                     }
                 </div>
 
             </div>
+            <Footer></Footer>
         </div>
     );
 };
