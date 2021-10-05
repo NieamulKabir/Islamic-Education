@@ -8,7 +8,7 @@ const CourseDetails = () => {
 
     useEffect(() => {
         let abc = '';
-        fetch(`http://localhost:3000/courses.json`)
+        fetch(`https://gist.githubusercontent.com/NieamulKabir/94ec78449e66ac9bd79df15a81753bda/raw/5a93834d62e125089656fc53e887b446e337d9bd/gistfile1.txt`)
             .then(res => res.json())
             .then(data => {
                 abc = data.find(result => (result.id === parseInt(courseId)))
